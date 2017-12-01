@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Example {
 	@RequestMapping("/")
 	String home() {
-		return "Hello World!" + "whitman git test 1";
+		return "Hello World!" + "whitman git test 22";
 	}
 
 	@RequestMapping(value="/hello/{myName}", method=RequestMethod.GET)
